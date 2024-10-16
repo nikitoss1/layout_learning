@@ -1,0 +1,28 @@
+table.catalog {
+    border-collapse: collapse;
+}
+
+table.catalog td {
+    border-top: black thin dotted;
+    border-bottom: black thin dotted;
+    padding: 10px;
+}
+
+table.catalog img {
+    width: 200px;
+}
+
+nav {
+    float: left;
+    width: 150px;
+    margin: 10px 30px 10px 0px;
+    padding: 10px;
+    border: black medium double;
+    border-radius: 10px;
+}
+
+nav div {
+    font-size: 20pt;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}

@@ -1,0 +1,25 @@
+table.pricelist th, table.pricelist td {
+    border: grey thin solid;
+    padding: 4px;
+}
+
+
+table.pricelist thead th {
+    color: white;
+    background-color: grey;
+}
+
+nav {
+    float: left;
+    width: 150px;
+    margin: 10px 30px 10px 0px;
+    padding: 10px;
+    border: black medium double;
+    border-radius: 10px;
+}
+
+nav div {
+    font-size: 20pt;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
