@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Takeaway</title>
+    <link rel="stylesheet" href="../styles/style_price.css">
+</head>
+<body>
+    <!-- <nav id="start">
+        <div><a href="../index.html">Главная</a></div>
+        <div><a href="sashimi.html">Сашими</a></div>
+        <div><a href="sushi.html">Суши</a></div>
+        <div><a href="rolls.html">Роллы</a></div>
+        <div>Прайс-лист</div>
+    </nav> -->
+    <main>
+        <h1>Суши-бар <em>&laquo;Йокогама&raquo;</em></h1>
+        <form action="mailto:nikita.200210@mial.ru" method="post">
+           <p>
+               <label for="dishes">Что желаете заказать?</label><br>
+               <select name="dishes" id="dishes" size="6" multiple>
+                <optgroup label="Сашими">
+                   <option value="unagi">Унаги</option>
+                   <option value="hamachi">Хамачи</option>
+                </optgroup>
+                <optgroup label="Суши">
+                   <option value="chukka">Чукка</option>
+                   <option value="maguro">Магуро</option>
+                   <option value="tobiko">Тобико</option>
+                </optgroup>
+               </select>
+           </p>
+           <p>
+                <label for="phone">По какому номеру я могу вам перезвонить?</label><br>
+                <input type="text" name="phone" id="phone" required>
+            </p>
+            <p><textarea cols="40" rows="8" wrap="hard">Здравствуйте!</textarea></p>
+            <p><input type="submit"></p>
+        </form>
+    </main>
+    <footer style="text-align: right;">
+        <p>&copy; читатели книги <span class="bigger">&laquo;HTML и CSS&raquo;</span><br>Все права защищены.</p>
+    </footer>
+</body>
+</html>
